@@ -4,8 +4,19 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.5</Version>
+    <Authors>ArsonAssassin</Authors>
+    <Product>Archipelago.BizHawk</Product>
+    <PackageId>Archipelago.BizHawk</PackageId>
+    <Description>A class library for interfacing between BizHawk emulator and Archipelago Multiworld Randomiser.</Description>
+    <RepositoryUrl>https://github.com/ArsonAssassin/Archipelago.BizHawk</RepositoryUrl>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Archipelago.Core" Version="0.0.5" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
